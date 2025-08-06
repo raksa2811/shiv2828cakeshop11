@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #ffb6b6;
+  padding: 30px 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.cake-box {
+  background-color: #fff;
+  border: 2px solid #ffb6b6;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.cake-box:hover {
+  transform: scale(1.05);
+}
+
+.cake-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cake-box h3 {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  background-color: #fff0f0;
+  color: #c0392b;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe0e0;
+  color: #555;
+  font-size: 0.9rem;
+}
